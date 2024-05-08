@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h2>ข้อที่ 1</h2>
+        <p id="question-1">PIM ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer('1a')">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('1b')">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('1c')">C) พิม</button>
+        <button class="button" onclick="checkAnswer('1d')">D) ภีม</button>
+        <p id="result-1"></p>
+        <h2>ข้อที่ 2</h2>
+        <p id="question-2">วิทยาลัยการอาชีพศีขรภูมิตั้งอยู่จังหวัดใด ?</p>
+        <button class="button" onclick="checkAnswer('2a')">A) บุรีรัมย์</button>
+        <button class="button" onclick="checkAnswer('2b')">B) สุรินทร์</button>
+        <button class="button" onclick="checkAnswer('2c')">C) ศรีสะเกษ</button>
+        <button class="button" onclick="checkAnswer('2d')">D) อุบลราชธานี</button>
+        <p id="result-2"></p>
+        <h2>คะแนน</h2>
+        <h2 id="score">0</h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
